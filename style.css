@@ -1,0 +1,496 @@
+
+/* NAVIGATION */
+
+nav a
+{
+	margin-right:12%;
+	
+}
+
+.navbar 
+{
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.navbar-brand
+{
+	height: 40px;
+}
+/* PRESENTATION */
+
+#presentation
+{
+	margin-top: 50px;
+	text-align: center;
+	background-image: url(photo/image_presentation.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.title
+{
+	padding-top: 10px;
+}
+.title h1
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+}
+.title p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.presentation
+{
+	background-color: rgba(255, 255, 255, 0.7);
+	color: rgb(80, 36, 114);
+	margin-top: 90px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding-bottom: 20px
+}
+
+@media screen and (max-width: 1280px)
+{
+	.title h1
+	{
+		font-size: 27px;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 972px)
+{
+	.title
+	{
+		padding-top: 70px;
+	}
+}
+
+/* CAROUSEL*/
+
+
+#carousel
+{
+	margin-top: -20px;
+	padding: 60px 25%;
+	background-color: #ededed;
+
+}
+#carousel img
+{
+	height: 400px;
+
+}
+
+#carousel li.active
+{
+	background-color: red;
+}
+
+.carousel-control-next .carousel-control-next-icon, .carousel-control-prev .carousel-control-prev-icon
+{
+	background-color: red;
+}
+
+@media (min-width: 551px) and (max-width: 990px)
+{
+	#carousel img
+{
+	height: 250px;
+
+}
+}
+
+@media screen and (max-width: 550px)
+{
+	#carousel img
+{
+	height: 150px;
+
+}
+}
+
+/* FILMS */
+
+#films
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#films .bloc
+{
+	background-color: #ededed;
+	text-align: center;
+	width: 80%;
+	margin: 30px 10%;
+}
+#films .bloc .heure
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#films .bloc h2
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+#films .bloc .description
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+#films .bloc .synopsis
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#films .date
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: rgb(80, 36, 114);
+	border: 2px solid black;
+	width: 30%;
+	margin: auto;
+}
+
+#films .date:hover
+{
+	width: 80%;
+	background-color: #ededed;
+}
+@media screen and (max-width:  768px)
+{
+    #films .date
+    {
+        width: 80%;
+    }
+}
+@media (min-width:  992px)
+{
+	#films .bloc
+	{
+		height: 670px;
+	}
+}
+/* RESERVATION */
+
+#reservation
+{
+	background-color: #ededed;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+#reservation .container
+{
+	text-align: center;
+}
+
+
+#reservation h2
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+
+#reservation label
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+#reservation input
+{
+	margin-bottom: 10px;
+}
+
+#reservation select
+{
+	margin-bottom: 10px;
+}
+
+#reservation .envoyer
+{
+	margin-top: 30px;
+}
+/* BLOG */
+#blog
+{
+	padding-top: 30px;
+}
+#blog h2
+{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+#blog h3
+{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+#blog .article
+{
+	background-color: #ededed;
+	margin-top: 30px;
+}
+
+#blog .article img
+{
+	width: 50%;
+	height: 150px;
+	position: relative;
+	left: 25%;
+	margin : 20px 0;
+}
+
+
+#blog .button
+{
+	border: 3px solid #ededed;
+	background-color: #ededed;
+	text-decoration: none;
+	display: block;
+	width: 20%;
+	text-align: center;
+	padding: 10px;
+	color: black;
+	position: relative;
+	left: 40%;
+
+}
+
+#blog .button:hover
+{
+	background-color: white;
+	color: black;
+}
+
+#blog p
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width:  768px)
+{
+	#blog .article
+	{
+		height: 500px;
+	}
+	#blog .button
+	{
+		top: 30px;
+		margin-bottom: 30px;
+	}
+	#blog
+	{
+		padding-bottom: 20px;
+	}
+}
+
+@media (min-width:  990px)
+{
+	#blog .article
+	{
+		height: 400px;
+	}
+	#blog .button
+	{
+		top: 30px;
+		margin-bottom: 30px;
+	}
+	#blog
+	{
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width:  438px)
+{
+	#blog .button 
+	{
+		width: 60%;
+		left: 20%;
+	}
+
+}
+/* CONTACT */
+
+.formulaire
+{
+	width: 50%;
+}
+#contact
+{
+	background-color: #ededed;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+#contact .container
+{
+	text-align: center;
+}
+
+
+#contact h2
+{
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+
+#contact label
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+#contact input
+{
+	margin-bottom: 10px;
+}
+#contact .envoyer
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* FOOTER */
+
+footer
+{
+    background: #333;
+    padding: 20px 0 40px;
+}
+
+footer i
+{
+    font-size: 25px;
+    margin: 20px;
+    color: #d82C2e;
+    height: 30px;
+}
+
+footer i:hover
+{
+    font-size: 28px;
+}
+
+footer h5
+{
+    color: #fff;
+    font-weight: normal;
+}
+footer p
+{
+	color: #fff;
+}
+
+/* PAGE BLOG */
+
+header h1
+{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 80px;
+	margin-bottom: 40Px;
+
+}
+
+.blog
+{
+	background-color: #ededed;
+}
+.blog img, .blog2 img
+{
+	width: 200px;
+	height: 200px;
+	margin-right: 10%;
+	margin-bottom: 30px;
+}
+
+.flex
+{
+	display: flex;
+}
+.flex p
+{
+	margin: auto 0;
+}
+.blog h2, .blog2 h2
+{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+.blog p, .blog2 p
+{
+	font-family: 'Montserrat', sans-serif;
+}
+.blog2
+{
+	background-color: white;
+}
+
+
+@media screen and (max-width:  992px)
+{
+    .flex
+    {
+       flex-direction: column;
+    }
+    .blog img, .blog2 img
+{
+	width: 40%;
+	height: 200px;
+	position: relative;
+	left: 30%;
+	margin-bottom: 30px;
+}
+}
+@media screen and (max-width:  400px)
+{
+	.blog img, .blog2 img
+	{
+		height: 100px;
+	}
+}
