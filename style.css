@@ -84,6 +84,7 @@ nav a
 }
 #carousel img
 {
+
 	height: 400px;
 
 }
@@ -95,7 +96,12 @@ nav a
 
 .carousel-control-next .carousel-control-next-icon, .carousel-control-prev .carousel-control-prev-icon
 {
-	background-color: red;
+	height: 30px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+
 }
 
 @media (min-width: 551px) and (max-width: 990px)
@@ -114,7 +120,7 @@ nav a
 	height: 150px;
 
 }
-}
+} 
 
 /* FILMS */
 
